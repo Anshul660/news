@@ -22,10 +22,10 @@ setLoading(true)
      
     props.setProgress(100)
   }
-  useEffect(() => {
-  updateNews();
+  // useEffect(() => {
+  // updateNews();
 
-  }, [])
+  // }, [])
   
 const fetchMoreData = async() => {
   
