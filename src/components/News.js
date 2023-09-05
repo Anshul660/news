@@ -22,10 +22,10 @@ setLoading(true)
      
     props.setProgress(100)
   }
-  // useEffect(() => {
-  // updateNews();
-
-  // }, [])
+  useEffect(() => {
+    updateNews();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   
 const fetchMoreData = async() => {
   
